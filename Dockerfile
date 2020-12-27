@@ -1,3 +1,3 @@
 FROM pierrezemb/gostatic
 
-COPY index.html /srv/http/index.html
+COPY index.html wheel.svg /srv/http/
