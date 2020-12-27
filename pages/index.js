@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Logo from '../public/hubcapp.svg';
+import Logo from '../public/wheel.svg';
 
 export default function Home() {
   return (
@@ -45,13 +45,13 @@ export default function Home() {
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by <Logo className="w-36 text-indigo-500" />
-        </a>
+        Powered by{' '}
+        <div className="flex items-center">
+          <Logo className="w-6 text-indigo-500" />
+          <span className="lowercase ml-1 sm:font-bold text-gray-600">
+            Hubcapp
+          </span>
+        </div>
       </footer>
     </div>
   );
