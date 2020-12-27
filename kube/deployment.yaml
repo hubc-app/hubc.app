@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: ${account}
+  namespace: account-${account}
   name: static-site-${account}-${domain_clean}
   labels:
     role: static-site

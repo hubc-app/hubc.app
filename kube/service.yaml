@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: ${account}
+  namespace: account-${account}
   name: static-site-${account}-${domain_clean}
   labels:
     role: static-site
