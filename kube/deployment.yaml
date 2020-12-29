@@ -24,3 +24,5 @@ spec:
       containers:
       - name: static-site
         image: "${hashed_tag}"
+        ports:
+          - containerPort: 8043
